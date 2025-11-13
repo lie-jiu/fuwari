@@ -55,15 +55,8 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "lie-jiu",
-	bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	bio: "( •̀ ω •́ )y",
 	links: [
-		{
-			name: "Twitter",
-			icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
-			// You will need to install the corresponding icon set if it's not already included
-			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://twitter.com",
-		},
 		{
 			name: "Steam",
 			icon: "fa6-brands:steam",
@@ -72,7 +65,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/saicaca/fuwari",
+			url: "https://github.com/liejiu/",
 		},
 	],
 };
