@@ -2,7 +2,7 @@
 title: 欢迎
 published: 2025-11-13T15:22:57
 description: 欢迎页
-image: ""
+image: ./cover.jpeg
 tags:
   - 网站
 draft: false
