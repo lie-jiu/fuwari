@@ -1,11 +1,71 @@
 ---
-title: 欢迎
+title: 本博客的搭建过程
 published: 2025-11-13T15:22:57
-description: 欢迎页
+description: 使用cloudflare托管基于Astro构建的Fuwari静态网页
 image: ./cover.jpeg
 tags:
   - 网站
+  - 博客
+  - 静态
+  - 托管
+  - 教程
 draft: false
-lang: ""
+lang: zh_CN
 ---
-**欢迎来到我的博客**。
+
+# 前言
+如果你也想要部署一个同款静态博客，你需要准备以下：
+1. github账号
+2. cloudflare账号
+3. 一台电脑
+4. 良好的网络
+
+本博客仓库地址：[fuwari](https://github.com/lie-jiu/fuwari)
+
+## 第一步
+登陆GitHub复刻项目
+![](src/content/posts/assets/images/github复刻.png)
+
+英文为fork，大约3秒就能复刻成功。
+
+## 第二步
+[打开cloudflare](https://dash.cloudflare.com/)
+将鼠标放到网页的最左边，会出现侧边栏。
+
+![](src/content/posts/assets/images/cloudflare-pages.png)
+在构建分类里的计算和AI项目中，点击**Workers和Pages**
+点击网页右上角的**创建应用程序**
+![](src/content/posts/assets/images/PixPin_2025-11-13_15-56-01.png)
+点击**导入现有Git存储库**的开始使用。
+接下来会跳转至**github**授权。
+建议选择单个项目授权。
+如果你没有改名的话，复刻的项目名称为**fuwari**
+
+如果顺利的话，会出现选择存储库界面。
+![](src/content/posts/assets/images/PixPin_2025-11-13_16-00-20.png)
+但是发现开始设置是蓝灰色的，不能点击。
+你需要先点击fuwari，也就是你选择的存储库。
+点击会出现一个绿钩，这个时候就可以点击开始设置了。
+
+![](src/content/posts/assets/images/PixPin_2025-11-13_16-03-52.png)
+框架预设选择**Astro**
+然后就可以点击右下角的保存并部署了。
+
+接下来就静静等待部署成功，大概1分钟就可以部署完成。
+
+部署完成后点击分配的域名就可以浏览页面了。
+
+接下来可以前往github仓库编辑自己的软件了。
+
+```
+src/config.ts
+```
+这个文件的内容是网页的基础内容。
+你可以选择使用编辑器登陆github后克隆修改提交推送。
+也可以直接在github网页点击文件页面右上角的铅笔图标修改。
+
+![](src/content/posts/assets/images/PixPin_2025-11-13_20-42-55.png)
+红框内是必改项，其他内容就加油探索吧。
+:::tip
+使用编辑器的查找功能更加方便哦。
+:::
